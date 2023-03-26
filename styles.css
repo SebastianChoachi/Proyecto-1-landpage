@@ -1,5 +1,5 @@
 body {
-   background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -20,25 +20,37 @@ body {
 }
 
 .jumbocontent {
-    border: 2px solid rgb(24, 25, 71);
+    border: 2px solid rgb(255, 249, 249);
     padding: 0.5%;
     border-radius: 15px;
-    background-color: rgb(234, 235, 241);
+    background: linear-gradient(white, rgba(192, 218, 255, 0.811), rgba(160, 105, 2, 0.701));
 }
 
-#blog{
-margin-top: 2%;
-background-color: rgba(5, 8, 27, 0.899);
-border-radius: 15px;
+#blog {
+    margin-top: 2%;
+    background-color: rgba(5, 8, 27, 0.899);
+    border-radius: 15px;
 }
 
-.menu{
+.menu {
     padding: 2%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
 }
 
-.card{
+.card {
     height: 100%;
 }
+
+footer {
+    -webkit-text-fill-color: azure;
+    margin-top: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+    background-color: rgba(5, 8, 27, 0.899);
+    border-radius: 15px;
+    column-gap: 1%;
+}
+
