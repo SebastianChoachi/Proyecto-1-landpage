@@ -1,5 +1,6 @@
 body {
-    background-image: url(./imagenes/Fondo.jpeg);
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 #jumbotron {
@@ -19,12 +20,25 @@ body {
 }
 
 .jumbocontent {
-    border: 2px solid red;
+    border: 2px solid rgb(24, 25, 71);
     padding: 0.5%;
     border-radius: 15px;
-    background-color: rgb(171, 172, 183);
+    background-color: rgb(234, 235, 241);
 }
 
-.jumboimage{
-    border-radius: 15px;
+#blog{
+margin-top: 2%;
+background-color: rgba(5, 8, 27, 0.899);
+border-radius: 15px;
+}
+
+.menu{
+    padding: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 100%;
 }

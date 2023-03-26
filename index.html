@@ -11,7 +11,8 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: url(./imagenes/Fondo.jpeg);">
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm" style="background-color:black;"
             data-bs-theme="dark">
@@ -61,12 +62,13 @@
             <h1 class="display-8 fw-bold">Ahora También Repartimos en el Planeta Tierra</h1>
             <p class="fs-4">Solicitala desde tu base espacial más cercana</p>
             <div class="container-fluid">
-                <a class="navbar-brand">Registrate para recibir 50% de descuento en tu primer pedido</a>
+                <a class="navbar-brand">Registrate con tu correo para recibir 50% de descuento en tu primer pedido</a>
                 <form class="container-fluid">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">@</span>
                         <input type="text" class="form-control" placeholder="ingrese su correo" aria-label="Username"
                             aria-describedby="basic-addon1">
+                        <button class="btn btn-outline-success" type="submit">Registrar</button>
                     </div>
                 </form>
             </div>
@@ -76,7 +78,109 @@
         </div>
     </section>
     <section id="blog">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="menu">
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Chorizo.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Carne</h5>
+                                    <p class="card-text">Contiene carne de cerdo, carne de res,cola de cocodrilo, y un
+                                        poco de pelos de orangutan. Ideal para gente con mucha hambre.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Napolitana.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Napolitana</h5>
+                                    <p class="card-text">La clásica napolitana hecha a base de queso mosarella, frescos
+                                        tomates de los jardines del olympo, y un poco de lagrimas de virgen. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Obtener</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Peperoni.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Pepperoni</h5>
+                                    <p class="card-text">La gloriosa y sensual pizza de pepperoni, la especial de la casa, la consentida, la favorita en todo el sistema solar.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Devorar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="carousel-item">
+                    <div class="menu">
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Piña.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Hawaiana</h5>
+                                    <p class="card-text">La infame pizza con piña, solo deja de llorar y Comete la m*ldit4 piña. Realmente no esta tan mal.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Llorar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Pollo.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Pollo</h5>
+                                    <p class="card-text">Elaborada a base de pollo de finca con hormonas, muslos de ave fenix y alitas de paloma.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Pensarlo mejor</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-col-6 g-col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./imagenes/Vegetales.jpeg" height="50%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Vegetariana</h5>
+                                    <p class="card-text">Combinación de los mas frescos vegetales cultivados en el jardin del edén, pero recuerda, no vives de ensalada.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Cosechar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     <section id="adicional">
 
