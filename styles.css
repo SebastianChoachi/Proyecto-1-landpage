@@ -3,14 +3,19 @@ body {
     background-repeat: no-repeat;
 }
 
-h1{
-    color:coral; 
+h1 {
+    color: coral;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-h1:hover{
-    color:aquamarine; 
+h1:hover {
+    color: aquamarine;
 }
+
+h5 {
+    color: rgb(166, 255, 87);
+}
+
 
 #jumbotron {
     display: grid;
@@ -19,14 +24,6 @@ h1:hover{
     padding-bottom: 5%;
     border-radius: 0 0 0% 0%;
     background: linear-gradient(black, rgba(192, 218, 255, 0.811), rgba(160, 105, 2, 0.701));
-    
-
-    /*¡height: 600px;
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin: 20px 0 20px 0;*/
 }
 
 .jumbocontent {
@@ -52,14 +49,50 @@ h1:hover{
     height: 100%;
 }
 
+#adicional {
+    background: linear-gradient(black, rgba(50, 92, 152, 0.811), rgba(109, 19, 213, 0.496), black);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1%;
+    margin-top: 2%;
+    column-gap: 2%;
+}
+
+#ad-img{
+    margin-left: 10%;
+}
+
+#ad-txt{
+    margin: 3% 0 0 3%;
+   
+}
+
+#ad-txt h4{
+margin: 0 10% 5% 5%;
+color: rgb(228, 224, 224);
+}
+#ad-txt h2{
+    text-align: center;
+    color: rgb(39, 172, 179);
+    margin-bottom: 3%;
+}
+
+.oferta{
+    color: rgb(166, 255, 87);
+    text-align: center;
+}
+
 footer {
-    -webkit-text-fill-color: azure;
-    margin-top: 5%;
+    margin: 3% 0 0.5% 0;
     padding: 2%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     background-color: rgba(5, 8, 27, 0.899);
     column-gap: 1%;
+}
+
+footer li {
+    -webkit-text-fill-color: azure;
 }
 
 @media(max-width: 875px) {
@@ -78,7 +111,7 @@ footer {
 
 @media(max-width: 600px) {
 
-    footer{
+    footer {
         font-size: small;
     }
 
